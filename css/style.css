@@ -13,17 +13,18 @@
 }
 
 .title {
-	font-family: comic; 
+	font-family: "comic sans MS"; 
     text-align: center;
     color: black;
     font-size: 75px;
+    margin-top: 50px;
 
 }
 
 .sotw {
-	font-family: comic;
+	font-family: "comic sans MS";
 	text-align: left;
-	color: black;
+	color: white;
 	font-size: 40px
 }
 
@@ -36,6 +37,33 @@
 }
 	
 .rainbow{
-	background: url(../img/rainbow-jpg.png)no-repeat center center fixed;
+	background: url(../img/pastel.jpg)no-repeat center center fixed;
 	background-size:cover;
+}
+
+.blueberry{
+	font-family: "comic sans MS";
+}
+
+.strawberry {
+	font-family: "comic sans MS";
+}
+
+.cucumber {
+	font-family: "comic sans MS";
+}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-right: 50px;
+}
+
+.breakfast1{
+	margin-left: 200px
+}
+
+.description1{
+	margin-left: 200px
 }
